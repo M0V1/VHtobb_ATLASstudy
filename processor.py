@@ -78,7 +78,8 @@ def _build_weight_expression(
     entry: DSIDEntry,
     luminosity_fb: float,
     norm_factor: float,           # lumi × 1000 × xsec × kfac × filteff / sumofweight
-) -> str: """ 
+) -> str: 
+    """ 
     norm_factor × SF_expression × extra_weight
     """
     if entry.is_data:
